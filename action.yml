@@ -1,0 +1,9 @@
+name: "Glaze Up!"
+author: "MoeDevelops"
+description: "Automatically update your Gleam dependencies!"
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: purple
