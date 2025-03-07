@@ -12,7 +12,7 @@ git branch -m $BRANCH_NAME
 
 # make changes
 
-/bin/glaze_up/entrypoint.sh
+/bin/glaze_up/entrypoint.sh run
 
 if [ -n "$(git status --porcelain)" ]; then
     git add .
