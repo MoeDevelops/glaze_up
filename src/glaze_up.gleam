@@ -6,7 +6,7 @@ import gleam/result
 import simplifile
 
 pub fn main() {
-  io.println("Starting Glaze Up!")
+  io.println("Starting Glaze up!")
 
   let toml =
     simplifile.read("gleam.toml")
@@ -25,9 +25,7 @@ pub fn main() {
     io.println(cmd.run(pre_text <> dep.name))
   })
 
-  io.println("Finished Glaze Up!")
-
-  Ok(Nil)
+  io.println("Finished Glaze up!")
 }
 
 fn do_error(result: Result(a, b), message: String) {
