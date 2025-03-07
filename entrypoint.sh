@@ -8,7 +8,7 @@ git config --global user.name 'github-actions'
 git config --global user.email 'github-actions@github.com'
 git config --global --add safe.directory /github/workspace
 
-git switch --create -m $BRANCH_NAME
+git switch --create $BRANCH_NAME
 
 # make changes
 
